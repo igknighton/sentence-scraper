@@ -1,0 +1,27 @@
+{
+  "name": "sentence-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "aws-sdk": "^2.1099.0",
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "chromium": "^3.0.3",
+    "convert-array-to-csv": "^2.0.0",
+    "csv-parse": "^5.0.4",
+    "dotenv": "^16.0.3",
+    "jquery": "^3.6.0",
+    "playwright": "^1.20.1",
+    "process": "^0.11.10",
+    "uuid": "^8.3.2"
+  }
+}
